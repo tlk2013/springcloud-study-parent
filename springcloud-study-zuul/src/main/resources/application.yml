@@ -1,0 +1,25 @@
+server:
+  port: 9000
+  servlet:
+    context-path: /tlk
+spring:
+  application:
+    name: study-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5000/eureka/
+zuul:
+  host:
+    connect-timeout-millis: 15000 #HTTP连接超时要比Hystrix的大
+    socket-timeout-millis: 60000 #socket超时
+  routes:
+    emp:
+      serviceId: study-feign-consumer
+      path: /zuul-emp/**
+  ignored-services: '*'
+  prefix: /datou
+
+ribbon:
+  ReadTimeout: 10000
+  ConnectTimeout: 10000

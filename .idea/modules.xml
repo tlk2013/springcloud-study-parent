@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud-study-common/springcloud-study-common.iml" filepath="$PROJECT_DIR$/springcloud-study-common/springcloud-study-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-study-consumer/springcloud-study-consumer.iml" filepath="$PROJECT_DIR$/springcloud-study-consumer/springcloud-study-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-study-eureka/springcloud-study-eureka.iml" filepath="$PROJECT_DIR$/springcloud-study-eureka/springcloud-study-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-study-feign-consumer/springcloud-study-feign-consumer.iml" filepath="$PROJECT_DIR$/springcloud-study-feign-consumer/springcloud-study-feign-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-study-hystrix-dashboard/springcloud-study-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/springcloud-study-hystrix-dashboard/springcloud-study-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-study-parent.iml" filepath="$PROJECT_DIR$/springcloud-study-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-study-provider/springcloud-study-provider.iml" filepath="$PROJECT_DIR$/springcloud-study-provider/springcloud-study-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-study-zuul/springcloud-study-zuul.iml" filepath="$PROJECT_DIR$/springcloud-study-zuul/springcloud-study-zuul.iml" />
+    </modules>
+  </component>
+</project>

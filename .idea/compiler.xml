@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-study-common" />
+        <module name="springcloud-study-consumer" />
+        <module name="springcloud-study-eureka" />
+        <module name="springcloud-study-feign-consumer" />
+        <module name="springcloud-study-hystrix-dashboard" />
+        <module name="springcloud-study-provider" />
+        <module name="springcloud-study-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-study-common" target="1.8" />
+      <module name="springcloud-study-consumer" target="1.8" />
+      <module name="springcloud-study-eureka" target="1.8" />
+      <module name="springcloud-study-feign-consumer" target="1.8" />
+      <module name="springcloud-study-hystrix-dashboard" target="1.8" />
+      <module name="springcloud-study-parent" target="1.8" />
+      <module name="springcloud-study-provider" target="1.8" />
+      <module name="springcloud-study-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
